@@ -4,7 +4,7 @@
   let attempts = 0;
   while (attempts <= 3) {
     let userInput;
-    if (attempts === 1) {
+    if (attempts === 0) {
       userInput = parseInt(prompt("Please, guess a number between 1 - 10:"));
     } else if (attempts < 3) {
       userInput = parseInt(
